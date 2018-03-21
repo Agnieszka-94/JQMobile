@@ -5,6 +5,7 @@
         version     = "1.0.0" >
 
     <name>Business Card JQMobile</name>
+    <icon src="merge/android/favicon.png" platform="android" width="57" height="57" density="mdpi" />
     <description>My first mobile app with jQuery Mobile user interface</description>
     <author href="http://mypersonalwebsite.com" email="johnbrown@gmail.com">
 		John Brown
