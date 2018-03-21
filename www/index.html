@@ -17,15 +17,21 @@
 		  <div data-role="header">
 			<h1>Business card!</h1>
 		  </div>
-		  <div data-role="content" data-theme="a" class="ui-content">
-				<h3>Name</h3>
-				<p class="c-p">Agnieszka Tuleta</p>
-				
-				<h3>Email</h3>
-				<p class="c-p">agnieszka.t1994@gmail.com</p>	
+		  <div data-role="main" class="ui-content center">
+			<div data-role="content" data-theme="a" >
+					<h3>Name</h3>
+					<p>Agnieszka Tuleta</p>
+			</div>
 
-				<h3>Field of study</h3>
-				<p class="c-p">Informatyka Stosowana</p>
+			<div data-role="content" data-theme="a" >
+					<h3>Email</h3>
+					<p>agnieszka.t1994@gmail.com</p>
+			</div>		
+
+			<div data-role="content" data-theme="a" >
+					<h3>Field of study</h3>
+					<p>Informatyka Stosowana</p>
+			</div>
 			
 		<a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="deviceInfo()">Interests!</a>
 		  </div>
@@ -41,7 +47,8 @@
 				<h1>Interests!</h1>
 			</div>
 			<div role="main" class="ui-content">
-				<p id="deviceDetails">Coffee, Books</p>
+				<p data-role="content" data-theme="a"  class="center">Coffee</p>
+				<p data-role="content" data-theme="a"  class="center">Books</p>
 			</div>
 		</div>		
 		
